@@ -4,7 +4,7 @@ public class HexaCalc {
 	
 	//to convert hexadecimal to decimal
 	public int hexToDecimal(String hexadecimal){  
-		int base = 16;
+	    int base = 16;
 	    String digits = "0123456789ABCDEF";  
 	    hexadecimal = hexadecimal.toUpperCase();  
 	    int decimalValue = 0;  
